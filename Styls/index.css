@@ -97,4 +97,9 @@
 }
 .logo-animado img{
     width: 90%;
+    transition: all 3s ease-in-out ;
+    
+}
+.logo-animado img:hover{
+    transform: rotateX(180deg) rotateY(180deg);
 }
