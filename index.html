@@ -1,53 +1,98 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portada</title>
-    <link rel="stylesheet" href="Styls/index.css">
-    <link rel="shortcut icon" href="Multimedia/logo/fdfDADO.png" type="image/x-icon">
-</head>
-<body>
+    <link rel="stylesheet" href="Styls/index.css" />
+    <link
+      rel="shortcut icon"
+      href="Multimedia/logo/fdfDADO.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
     <header class="header-container">
-        <div class="logo-container">
-            <img src="Multimedia/logo/FDFdeveloperLOGOpng.png" alt="Logo FDF" class="logo">
-            <p class="pieLOGO">
-                Frank Developer Fronttend
-            </p>
-        </div>
-        <ul class="header-ul-container">
-            <li  class="cont-item"><a href="index.html">HOME</a></li>
-            <!-- <li class="cont-item"><a href="#">CV</a></li> -->
-            <li class="cont-item"><a href="abautMe.html">ABAUT ME</a></li>
-            <li class="cont-item"><a href="expiriens.html">EXPIRIENS</a></li>
-            <li class="cont-item"><a href="contac.html">CONTACT</a></li>
-        </ul>
+      <div class="logo-container">
+        <img
+          src="Multimedia/logo/FDFdeveloperLOGOpng.png"
+          alt="Logo FDF"
+          class="logo"
+        />
+        <p class="pieLOGO">Frank Developer Fronttend</p>
+      </div>
+      <ul class="header-ul-container">
+        <li class="cont-item"><a href="#id-home">HOME</a></li>
+        <!-- <li class="cont-item"><a href="#">CV</a></li> -->
+        <li class="cont-item"><a href="#id-abautMe">ABAUT ME</a></li>
+        <li class="cont-item"><a href="#id-expiriens">EXPIRIENS</a></li>
+        <li class="cont-item"><a href="#id-contacto">CONTACT</a></li>
+      </ul>
 
-        <div class="boton-modo-oscuro">
-            <input type="checkbox" id="checkitem" onclick="enableDarkMode()">
-        </div>
-
+      <div class="boton-modo-oscuro">
+        <input type="checkbox" id="checkitem" onclick="enableDarkMode()" />
+      </div>
     </header>
     <main class="main">
-        <div class="bienvenida-container">
+      <div class="d-main">
+        <div id="id-home" class="home">
+          <div class="bienvenida-container">
             <h1>
-                <span>Hola,</span> <br>
-                <span>Bienvenid@</span> <br>
-                <span>a mi perfil digital...</span> <br>
-                <span>Frank Duarte Fernandez</span>
+              <span>Hola,</span> <br />
+              <span>Bienvenid@</span> <br />
+              <span>a mi perfil digital...</span> <br />
+              <span>Frank Duarte Fernandez</span>
             </h1>
+          </div>
+
+          <div class="perfil-container">
+            <img src="Multimedia/logo/Yo.jpg" alt="Foto de mi persona" />
+          </div>
+
+          <div class="logo-animado">
+            <img src="Multimedia/logo/fdfDado.svg" alt="logo con animacion" />
+          </div>
         </div>
 
-        <div class="perfil-container">
-            <img src="Multimedia/logo/Yo.jpg" alt="Foto de mi persona">
+        <div id="id-abautMe" class="abaut-me">
+          <h2>¿Quien Soy?</h2>
+          <div class="datos-generales">
+            <p><b>NOMBRE:</b> Frank Luis Duarte Fernandez</p>
+            <p><b>UBICACION:</b> La Vega, República Dominicana</p>
+            <p><b>EDAD:</b> 22 años</p>
+          </div>
+          <div class="datos-glob">
+            <h3>ESTUDIOS:</h3>
+            <p><b>BACHILLER:</b>  Completé mis estudios de bachillerato en una institución educativa en mi ciudad natal.</p>
+            <p><b>Estudiante</b> de Ingeniería en Sistemas Computacionales en la Universidad Católica del Cibao (UCATECI): Actualmente estoy cursando la carrera de Ingeniería en Sistemas Computacionales en la UCATECI. Durante mis estudios, he adquirido conocimientos en áreas como programación, bases de datos, redes de computadoras y sistemas operativos, entre otros.</p>
+            <h3>EXPERIENCIA LABORAL:</h3>
+            <p><b>Diseñador gráfico</b>Trabajo en el negocio familiar que se dedica al diseño gráfico y sublimación de prendas de poliéster. En este rol, he adquirido experiencia en la creación de diseños personalizados, la preparación de archivos para la impresión y el manejo de equipos y herramientas de sublimación.</p>
+            <h3>HABILIDADES Y CONOCIMIENTOS:</h3>
+            <p><b>Desarrollo web:</b>Completé un programa de formación técnica en desarrollo web, donde adquirí conocimientos en lenguajes y tecnologías como HTML, CSS, JavaScript y WordPress. También aprendí a crear y diseñar sitios web responsivos y optimizados.</p>
+            <p><b>Frontend Developer (en desarrollo):</b> Me estoy enfocando en desarrollar mis habilidades como Frontend Developer. Estoy aprendiendo frameworks como React y Vue.js, así como herramientas de desarrollo web modernas como TypeScript, Sass y Git. También estoy trabajando en mejorar mis habilidades de diseño UI/UX para crear interfaces atractivas y funcionales.</p>
+          </div>
+
         </div>
 
-        <div class="logo-animado">
-            <img src="Multimedia/logo/fdfDado.svg" alt="logo con animacion">
+        <div id="id-expiriens" class="expiriens">
+          <h2>Mis Experiencias</h2>
+          <p>Esta seccion aun no esta completada</p>
+          <p>Pronto la tendremos disponible para ti</p>
+          <p>Gracias pos visitar mi sitio</p>
+          <p>FrankLDF</p>
         </div>
+
+        <div id="id-contacto" class="contacto">
+          <h2>Contactos</h2>
+          <p>Esta seccion aun no esta completada</p>
+          <p>Pronto la tendremos disponible para ti</p>
+          <p>Gracias pos visitar mi sitio</p>
+          <p>FrankLDF</p>
+        </div>
+      </div>
     </main>
 
     <script src="index.js"></script>
-</body>
+  </body>
 </html>
