@@ -121,7 +121,7 @@ input[type="checkbox"]:checked::before {
     text-align: center;
     display: flex;
     flex-wrap: nowrap;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .home{
