@@ -156,8 +156,7 @@ input[type="checkbox"]:checked::before {
 }
 
 .abaut-me {
-  max-height: 100vh;
-  height: 80vh;
+  max-height: 80vh;
   overflow: hidden scroll;
   flex-basis: 100%;
   flex-shrink: 0;
